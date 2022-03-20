@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>dotnetKyle.IsExternalInit</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <description>
     Allows for 'records' and 'init' setters in .NET Standard 2.0 projects, among other things. 
 	
@@ -20,7 +20,7 @@
 	</contentFiles>
   </metadata>
   <files>
-	<file src="Package/README.md" target="docs\README.md"/>  
+	<file src="../../README.md" target="docs\README.md"/>  
 	  
 	<!-- .cs.pp files transform into .cs files and are included in users build -->
 	<file src="IsExternalInit.cs.pp" target="contentFiles/cs/net20/IsExternalInit/IsExternalInit.cs.pp"/>
